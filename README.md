@@ -24,4 +24,4 @@ Enter the disk UUID for the drive you want to sync to as well as the directory y
 * Any other command line applications the script uses and is not included by default within your disribution, I recommend skimming through the code just to be sure
 
 ## DISCLAIMER
-I made this version of the script by chaning the one I use. The changes include changing file extensions and adding a config file for a more DRY approach. You can let me know if it doesn't work and I'll fix it.
+I made this version of the script by changing the one I use. The changes include changing file extensions and adding a config file for a more DRY approach. You can let me know if it doesn't work and I'll fix it.
