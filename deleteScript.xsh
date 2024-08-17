@@ -8,3 +8,4 @@ for i in range(1,len($ARGS),1):
 	rm -rv @(syncDir + $ARGS[i])
 	rm -rv @(mountPoint + '/' + $ARGS[i])
 	rclone purge -v googleDrive:/@($ARGS[i])
+	rclone delete -v googleDrive:/@($ARGS[i])
