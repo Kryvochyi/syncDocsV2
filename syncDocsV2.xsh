@@ -129,7 +129,7 @@ while True:
 		if mountPoint == '':
 			udisksctl mount -b @(deviceLocation)
 			mountPoint = $(findmnt -n -S UUID=@(diskUUID) --output TARGET).strip()
-			printAndAppendToFile('AG_USB just mounted to ' + mountPoint)
+			printAndAppendToFile('Drive just mounted to ' + mountPoint)
 		if mountPoint != '':
 			syncLeftWithRight(syncDir,mountPoint)
 	if checkTERM():
